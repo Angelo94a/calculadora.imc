@@ -5,17 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <form action="" class="imc">
-    <label for="">Peso:</label>
-    <input type="text" name="" id="pesoTxt">
-    <label for="">Altura:</label>
-    <input type="text" name="" id="alturaTxt">
-    <button id="btnCalcular" type="button">Calcular</button>
-    <button id="btnReset" type="button">Resetear</button>
+  <form action="" class="imc" id="imcG">
+    <div class="input__grupo" id="grupo__peso">
+      <label for="">Peso:</label>
+      <input type="text" name="" id="pesoTxt" class="grupo__input">
+    </div>
+    <div class="input__grupo" id="grupo__altura">
+      <label for="">Altura:</label>
+      <input type="text" name="" id="alturaTxt" class="grupo__input">
+    </div>
+    <button id="btnCalcular" type="button" class="btnCalcular">Calcular</button>
+    <button id="btnReset" type="button" class="btnLimpiar">Resetear</button>
     <div class="text" id="txtPintar"></div>
+    <div class="alert" id="alert"></div>
   </form>
+  <div class="contenedor__imagen">
+    <img src="IMC-05.png" alt="Tabla IMC" class="contenedor__img">
+  </div>
   <script src="app.js"></script>
 </body>
 </html>
