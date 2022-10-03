@@ -1,0 +1,67 @@
+.imc{
+  width: 300px;
+  margin: auto;
+  height: auto;
+  padding: 15px 30px;
+  border: 1px solid #181818;
+  border-radius: 10px;
+}
+
+.input__grupo{
+  display: flex;
+  flex-direction:column;
+  margin-bottom: 10px;
+}
+
+.grupo__input{
+  outline: none;
+  border: none;
+  background-color: none;
+  border-bottom: 2px solid #181818;
+  line-height: 35px;
+}
+
+.btnLimpiar, .btnCalcular{
+  border:none;
+  background: none;
+}
+
+.btnCalcular{
+  padding: 10px 30px;
+  background: lightgreen;
+  color: white;
+  cursor:pointer;
+  transition: all .3s ease;
+}
+
+.btnCalcular:hover{
+  transform: scale(0.93);
+  transition: all .3s ease;
+}
+
+.btnLimpiar{
+  padding:10px 30px;
+  background: lightcoral;
+  color:white;
+  cursor:pointer;
+  transition: all .3s ease;
+}
+
+.btnLimpiar:hover{
+  transform: scale(0.93);
+  transition: all .3s ease;
+}
+
+.text{
+  margin-top: 30px;
+}
+
+.contenedor__imagen{
+  width: 300PX;
+  margin:auto;
+  margin-top:30px;
+}
+
+.contenedor__img{
+  width:300px;
+}
